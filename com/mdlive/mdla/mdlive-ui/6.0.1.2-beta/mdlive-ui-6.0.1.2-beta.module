@@ -1,0 +1,155 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "mdlive-ui",
+    "version": "6.0.1.2-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mdlive-ui-6.0.1.2-beta.aar",
+          "url": "mdlive-ui-6.0.1.2-beta.aar",
+          "size": 2372298,
+          "sha512": "bfdcb6c193ffdbf7e159c4a39277fb15d59895773fd50ff8be5e47dcfe3d881d3147c31de4ef9db5d2e8424408619753a24c296e94ec66b4cbf1c862bf3e88b0",
+          "sha256": "66aa326961985786236f5eb223d9a7907a411c7a97d2c94428c7e336d9b44d60",
+          "sha1": "0fd75453e8d6103f6a6a522188bae550620fe370",
+          "md5": "cbc5f162138f8a418dfdbb7e7bd47bb8"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "mdlive-core-models",
+          "version": {
+            "requires": "6.0.1.2-beta"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2023.01.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.5.0"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-navigation-material",
+          "version": {
+            "requires": "0.28.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.6.0-beta01"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-text-google-fonts"
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer-dash",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.compose.material",
+          "module": "material"
+        }
+      ],
+      "files": [
+        {
+          "name": "mdlive-ui-6.0.1.2-beta.aar",
+          "url": "mdlive-ui-6.0.1.2-beta.aar",
+          "size": 2372298,
+          "sha512": "bfdcb6c193ffdbf7e159c4a39277fb15d59895773fd50ff8be5e47dcfe3d881d3147c31de4ef9db5d2e8424408619753a24c296e94ec66b4cbf1c862bf3e88b0",
+          "sha256": "66aa326961985786236f5eb223d9a7907a411c7a97d2c94428c7e336d9b44d60",
+          "sha1": "0fd75453e8d6103f6a6a522188bae550620fe370",
+          "md5": "cbc5f162138f8a418dfdbb7e7bd47bb8"
+        }
+      ]
+    }
+  ]
+}

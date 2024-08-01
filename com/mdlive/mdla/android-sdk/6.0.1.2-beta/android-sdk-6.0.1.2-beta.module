@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "android-sdk",
+    "version": "6.0.1.2-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mdlive.mdla",
+          "module": "android-sdk-common-android-sdk-common",
+          "version": {
+            "requires": "6.0.1.2-beta"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "android-sdk-java-android-sdk-java",
+          "version": {
+            "requires": "6.0.1.2-beta"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-sdk-6.0.1.2-beta.aar",
+          "url": "android-sdk-6.0.1.2-beta.aar",
+          "size": 23067,
+          "sha512": "002ac8176fbfa5e094489540d0db36e2ce917d526c3301fad5ebfc0c8eb62950811c7fd49938a83b0cbf4694b17711c7affc2fcc2628ad6d6f5c2a4d33548e43",
+          "sha256": "1ea4f032bcb7931bcf5833cbbdf92fc5c79d4c5f66bed5352113e28a40cf93f5",
+          "sha1": "5a0ecd5b9455aaa410a507e5aa1015fcb4f33779",
+          "md5": "31418b5678d4d0990082c08adbc5574a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mdlive.mdla",
+          "module": "android-sdk-common-android-sdk-common",
+          "version": {
+            "requires": "6.0.1.2-beta"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "android-sdk-java-android-sdk-java",
+          "version": {
+            "requires": "6.0.1.2-beta"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "android-core",
+          "version": {
+            "requires": "6.0.1.2-beta"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-sdk-6.0.1.2-beta.aar",
+          "url": "android-sdk-6.0.1.2-beta.aar",
+          "size": 23067,
+          "sha512": "002ac8176fbfa5e094489540d0db36e2ce917d526c3301fad5ebfc0c8eb62950811c7fd49938a83b0cbf4694b17711c7affc2fcc2628ad6d6f5c2a4d33548e43",
+          "sha256": "1ea4f032bcb7931bcf5833cbbdf92fc5c79d4c5f66bed5352113e28a40cf93f5",
+          "sha1": "5a0ecd5b9455aaa410a507e5aa1015fcb4f33779",
+          "md5": "31418b5678d4d0990082c08adbc5574a"
+        }
+      ]
+    }
+  ]
+}

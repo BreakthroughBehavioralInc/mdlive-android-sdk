@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "android-sdk-java-android-sdk-java",
+    "version": "6.0.1.2-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-sdk-java-android-sdk-java-6.0.1.2-beta.jar",
+          "url": "android-sdk-java-android-sdk-java-6.0.1.2-beta.jar",
+          "size": 87574,
+          "sha512": "c116cbe60ab8107927a9431da7146ea8204e5b727c1f6b6ef62f68db55c64182d49c696ffe4c4f42fed7b9f88a797ebc6513d5c1ac1508d9bd65c18a8dad5a35",
+          "sha256": "ea61141c28cad92839b15ba0e7cfea63304ff6df1669af4b88609d98448bf024",
+          "sha1": "269446df4b5f8a3f669965b398e04f40983c83e2",
+          "md5": "aaab678a0a10d819e18eadf9ea6e9e56"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-sdk-java-android-sdk-java-6.0.1.2-beta.jar",
+          "url": "android-sdk-java-android-sdk-java-6.0.1.2-beta.jar",
+          "size": 87574,
+          "sha512": "c116cbe60ab8107927a9431da7146ea8204e5b727c1f6b6ef62f68db55c64182d49c696ffe4c4f42fed7b9f88a797ebc6513d5c1ac1508d9bd65c18a8dad5a35",
+          "sha256": "ea61141c28cad92839b15ba0e7cfea63304ff6df1669af4b88609d98448bf024",
+          "sha1": "269446df4b5f8a3f669965b398e04f40983c83e2",
+          "md5": "aaab678a0a10d819e18eadf9ea6e9e56"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.mdlive.mdla</groupId>
+  <artifactId>android-sdk-common-android-sdk-common</artifactId>
+  <versioning>
+    <latest>6.0.1.2-beta</latest>
+    <release>6.0.1.2-beta</release>
+    <versions>
+      <version>6.0.1.2-beta</version>
+    </versions>
+    <lastUpdated>20240801220545</lastUpdated>
+  </versioning>
+</metadata>

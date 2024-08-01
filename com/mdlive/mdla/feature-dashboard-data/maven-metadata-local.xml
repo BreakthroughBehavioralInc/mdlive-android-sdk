@@ -3,11 +3,11 @@
   <groupId>com.mdlive.mdla</groupId>
   <artifactId>feature-dashboard-data</artifactId>
   <versioning>
-    <latest>6.0.1.1-beta</latest>
-    <release>6.0.1.1-beta</release>
+    <latest>6.0.1.2-beta</latest>
+    <release>6.0.1.2-beta</release>
     <versions>
-      <version>6.0.1.1-beta</version>
+      <version>6.0.1.2-beta</version>
     </versions>
-    <lastUpdated>20240618205324</lastUpdated>
+    <lastUpdated>20240801220546</lastUpdated>
   </versioning>
 </metadata>
