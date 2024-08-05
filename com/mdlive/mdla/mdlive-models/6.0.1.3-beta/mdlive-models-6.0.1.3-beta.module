@@ -1,0 +1,101 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "mdlive-models",
+    "version": "6.0.1.3-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "mdlive-models-6.0.1.3-beta.jar",
+          "url": "mdlive-models-6.0.1.3-beta.jar",
+          "size": 2410957,
+          "sha512": "32cbd855e812c983f1512d907b1901753dd9a4793fef50bd78d6b7b8b4ab028ead85968feccd0c4bfb42172c92612e36b860da28f113598a11a3fcc874a3913e",
+          "sha256": "45822878e9a6eb1f557559f026ff92bff1c2ae3aa6b53816c4a918dfc6de1710",
+          "sha1": "56f05774c55aac7d35ca3d51d9982694c68e4ec7",
+          "md5": "f3d377b0472978059a67a6829f3bac9f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.mdlive.mdla",
+          "module": "mdlive-core-models",
+          "version": {
+            "requires": "6.0.1.3-beta"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "android-sdk-java-android-sdk-java",
+          "version": {
+            "requires": "6.0.1.3-beta"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.0.0-android"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mdlive-models-6.0.1.3-beta.jar",
+          "url": "mdlive-models-6.0.1.3-beta.jar",
+          "size": 2410957,
+          "sha512": "32cbd855e812c983f1512d907b1901753dd9a4793fef50bd78d6b7b8b4ab028ead85968feccd0c4bfb42172c92612e36b860da28f113598a11a3fcc874a3913e",
+          "sha256": "45822878e9a6eb1f557559f026ff92bff1c2ae3aa6b53816c4a918dfc6de1710",
+          "sha1": "56f05774c55aac7d35ca3d51d9982694c68e4ec7",
+          "md5": "f3d377b0472978059a67a6829f3bac9f"
+        }
+      ]
+    }
+  ]
+}
