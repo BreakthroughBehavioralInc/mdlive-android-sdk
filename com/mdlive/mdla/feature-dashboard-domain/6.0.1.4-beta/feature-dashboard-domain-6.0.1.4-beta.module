@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "feature-dashboard-domain",
+    "version": "6.0.1.4-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-dashboard-domain-6.0.1.4-beta.jar",
+          "url": "feature-dashboard-domain-6.0.1.4-beta.jar",
+          "size": 153368,
+          "sha512": "1387654722ac9fb318df02582319cbb97527ab713738eaf57090e1c5a5e531e182fd9697f8842e63223e121c20478252271b30d564b1aff70f364d76fa0e98a2",
+          "sha256": "a615a131b38fdca8581c2bbee7926aa21d3924222474b496b2fb8433bc4979ba",
+          "sha1": "9c6a5cdf6facbbeaeceb1c2449a285129d92d382",
+          "md5": "cc58806b4864fbbe0ee963782c27c719"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "mdlive-core-models",
+          "version": {
+            "requires": "6.0.1.4-beta"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-dashboard-domain-6.0.1.4-beta.jar",
+          "url": "feature-dashboard-domain-6.0.1.4-beta.jar",
+          "size": 153368,
+          "sha512": "1387654722ac9fb318df02582319cbb97527ab713738eaf57090e1c5a5e531e182fd9697f8842e63223e121c20478252271b30d564b1aff70f364d76fa0e98a2",
+          "sha256": "a615a131b38fdca8581c2bbee7926aa21d3924222474b496b2fb8433bc4979ba",
+          "sha1": "9c6a5cdf6facbbeaeceb1c2449a285129d92d382",
+          "md5": "cc58806b4864fbbe0ee963782c27c719"
+        }
+      ]
+    }
+  ]
+}

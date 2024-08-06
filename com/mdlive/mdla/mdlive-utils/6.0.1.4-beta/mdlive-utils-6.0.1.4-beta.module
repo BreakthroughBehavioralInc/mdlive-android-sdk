@@ -1,0 +1,195 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "mdlive-utils",
+    "version": "6.0.1.4-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "7.4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mdlive-utils-6.0.1.4-beta.aar",
+          "url": "mdlive-utils-6.0.1.4-beta.aar",
+          "size": 32065,
+          "sha512": "86a280582ea3e84babea9868fce3ecbb80986f968fd4cb19ef64105fdaa6e4b706aefa95565b39e0b5bfa84ffc4530a92dc6e89188ddc59412e7a128c4976cc3",
+          "sha256": "6a848d106ae5ce9d760a71dec7f88d7c8c3f4a281c5b7196cd950d6201bb9a1d",
+          "sha1": "e38e10fdf938cbe8b70efd8bd1cb8f7eaba774eb",
+          "md5": "ac53b8fbe0f11b2f35a0ded3a55bd82e"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.biometric",
+          "module": "biometric",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxkotlin",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.rxbinding2",
+          "module": "rxbinding",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.rxbinding2",
+          "module": "rxbinding-design",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "com.jakewharton.rxbinding2",
+          "module": "rxbinding-support-v4",
+          "version": {
+            "requires": "2.2.0"
+          }
+        },
+        {
+          "group": "nl.littlerobots.rxlint",
+          "module": "rxlint",
+          "version": {
+            "requires": "1.7.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mdlive-utils-6.0.1.4-beta.aar",
+          "url": "mdlive-utils-6.0.1.4-beta.aar",
+          "size": 32065,
+          "sha512": "86a280582ea3e84babea9868fce3ecbb80986f968fd4cb19ef64105fdaa6e4b706aefa95565b39e0b5bfa84ffc4530a92dc6e89188ddc59412e7a128c4976cc3",
+          "sha256": "6a848d106ae5ce9d760a71dec7f88d7c8c3f4a281c5b7196cd950d6201bb9a1d",
+          "sha1": "e38e10fdf938cbe8b70efd8bd1cb8f7eaba774eb",
+          "md5": "ac53b8fbe0f11b2f35a0ded3a55bd82e"
+        }
+      ]
+    }
+  ]
+}
