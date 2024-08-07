@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "feature-debugmenu-domain",
+    "version": "6.1.0.2-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-debugmenu-domain-6.1.0.2-beta.jar",
+          "url": "feature-debugmenu-domain-6.1.0.2-beta.jar",
+          "size": 12835,
+          "sha512": "33a2c5c2a8345b1f73d86035ff3c0cafad50d675ce8025bb9e2ef9543cb5c1e8db4daacd5e26e27ed41adc8bbdfcbe5458cd76d547a6cd54fb7ac20c423fd1e9",
+          "sha256": "c78d181439084ff1567c440f3d536129fb2e7089358acf3fff15e286f0df5655",
+          "sha1": "4a04b9251faabb7e4060724012f1e53fe2d8b59b",
+          "md5": "e0665e92bcc21ec32d1fec7f084ef97f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "mdlive-core-models",
+          "version": {
+            "requires": "6.1.0.2-beta"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-debugmenu-domain-6.1.0.2-beta.jar",
+          "url": "feature-debugmenu-domain-6.1.0.2-beta.jar",
+          "size": 12835,
+          "sha512": "33a2c5c2a8345b1f73d86035ff3c0cafad50d675ce8025bb9e2ef9543cb5c1e8db4daacd5e26e27ed41adc8bbdfcbe5458cd76d547a6cd54fb7ac20c423fd1e9",
+          "sha256": "c78d181439084ff1567c440f3d536129fb2e7089358acf3fff15e286f0df5655",
+          "sha1": "4a04b9251faabb7e4060724012f1e53fe2d8b59b",
+          "md5": "e0665e92bcc21ec32d1fec7f084ef97f"
+        }
+      ]
+    }
+  ]
+}
