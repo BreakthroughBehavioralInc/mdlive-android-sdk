@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="android-sdk-java-android-sdk-java-6.0.1.3-beta">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/com/mdlive/mdla/android-sdk-java-android-sdk-java/6.0.1.3-beta/android-sdk-java-android-sdk-java-6.0.1.3-beta.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

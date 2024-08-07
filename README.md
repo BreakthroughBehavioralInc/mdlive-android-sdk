@@ -1,1 +1,1 @@
-# mdlive-android-sdk
+# mdlive-android-sdk[maven-metadata-local.xml](..%2F..%2F.m2%2Frepository%2Fcom%2Fmdlive%2Fmdla%2Fmdlive-ui%2Fmaven-metadata-local.xml)

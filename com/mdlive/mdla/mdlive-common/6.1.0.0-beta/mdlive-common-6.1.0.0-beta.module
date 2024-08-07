@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "mdlive-common",
+    "version": "6.1.0.0-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "mdlive-common-6.1.0.0-beta.jar",
+          "url": "mdlive-common-6.1.0.0-beta.jar",
+          "size": 16247,
+          "sha512": "941a03889218a0408dfee96756e99ba55a654a3fe89dc4e45a798dec19eb76278a5b0aca4eebedf0a34068baf3744d43b2cc1cee787e33af126262b57dbea8e4",
+          "sha256": "89cb67c9c503714cd47b97107833f3802e9edef1dfe9b202216735f69b1609ce",
+          "sha1": "c3e194206271033819e07a73f07fdc873d4dc328",
+          "md5": "cd860bc042eff504635b5e1e65e70768"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.1.0-android"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mdlive-common-6.1.0.0-beta.jar",
+          "url": "mdlive-common-6.1.0.0-beta.jar",
+          "size": 16247,
+          "sha512": "941a03889218a0408dfee96756e99ba55a654a3fe89dc4e45a798dec19eb76278a5b0aca4eebedf0a34068baf3744d43b2cc1cee787e33af126262b57dbea8e4",
+          "sha256": "89cb67c9c503714cd47b97107833f3802e9edef1dfe9b202216735f69b1609ce",
+          "sha1": "c3e194206271033819e07a73f07fdc873d4dc328",
+          "md5": "cd860bc042eff504635b5e1e65e70768"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "mdlive-testing",
+    "version": "6.1.0.0-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "mdlive-testing-6.1.0.0-beta.jar",
+          "url": "mdlive-testing-6.1.0.0-beta.jar",
+          "size": 8104,
+          "sha512": "8bcb85c1ffbf88fef15a01d9c6b1ade90913cf3749b67ff33787ac3bddd4a62bc3f7e13e11ff4b8aaf3b35fba29dff8d528a193635b21b73d85cce73e01a3433",
+          "sha256": "f0ebd281cd8e36b8fc1abf9da3306cc11926a871d64dc6e6b5444b4692e1362a",
+          "sha1": "f751eaf96e91c8a55d004b8c44d97ea89cbc06a9",
+          "md5": "88c5b1e811f708f65f8586079705b67a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        },
+        {
+          "group": "org.reflections",
+          "module": "reflections",
+          "version": {
+            "requires": "0.9.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mdlive-testing-6.1.0.0-beta.jar",
+          "url": "mdlive-testing-6.1.0.0-beta.jar",
+          "size": 8104,
+          "sha512": "8bcb85c1ffbf88fef15a01d9c6b1ade90913cf3749b67ff33787ac3bddd4a62bc3f7e13e11ff4b8aaf3b35fba29dff8d528a193635b21b73d85cce73e01a3433",
+          "sha256": "f0ebd281cd8e36b8fc1abf9da3306cc11926a871d64dc6e6b5444b4692e1362a",
+          "sha1": "f751eaf96e91c8a55d004b8c44d97ea89cbc06a9",
+          "md5": "88c5b1e811f708f65f8586079705b67a"
+        }
+      ]
+    }
+  ]
+}
