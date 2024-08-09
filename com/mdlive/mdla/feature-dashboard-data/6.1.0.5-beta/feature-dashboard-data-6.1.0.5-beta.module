@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "feature-dashboard-data",
+    "version": "6.1.0.5-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-dashboard-data-6.1.0.5-beta.aar",
+          "url": "feature-dashboard-data-6.1.0.5-beta.aar",
+          "size": 169716,
+          "sha512": "6f15ede34533a941126e7ace33b9351a24e1a80d5d9934f5dbd8673945e022c13209ff8df4e6d7230c9be1ed00813a1646802cac7ffb86b52ad3f89bff52410b",
+          "sha256": "d5bf723b3a8842526151efdf890b880ce4091337314f15fc6c2e23137c7bb661",
+          "sha1": "501597fd32f45268c29598869d34fd53ee45d598",
+          "md5": "ab364b3db3083455111b297980c118b2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-dashboard-domain",
+          "version": {
+            "requires": "6.1.0.5-beta"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "mdlive-core-models",
+          "version": {
+            "requires": "6.1.0.5-beta"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-dashboard-data-6.1.0.5-beta.aar",
+          "url": "feature-dashboard-data-6.1.0.5-beta.aar",
+          "size": 169716,
+          "sha512": "6f15ede34533a941126e7ace33b9351a24e1a80d5d9934f5dbd8673945e022c13209ff8df4e6d7230c9be1ed00813a1646802cac7ffb86b52ad3f89bff52410b",
+          "sha256": "d5bf723b3a8842526151efdf890b880ce4091337314f15fc6c2e23137c7bb661",
+          "sha1": "501597fd32f45268c29598869d34fd53ee45d598",
+          "md5": "ab364b3db3083455111b297980c118b2"
+        }
+      ]
+    }
+  ]
+}

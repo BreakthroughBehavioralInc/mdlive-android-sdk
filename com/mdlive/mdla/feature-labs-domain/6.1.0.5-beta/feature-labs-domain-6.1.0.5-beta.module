@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "feature-labs-domain",
+    "version": "6.1.0.5-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-labs-domain-6.1.0.5-beta.jar",
+          "url": "feature-labs-domain-6.1.0.5-beta.jar",
+          "size": 24142,
+          "sha512": "32750e8eb248f14ddd47e06ede06502347e42340946a989965d73559f3e154f0cab9644b3696afc4642e0f11f8b16f9aa06fbfff227bf827e0bee5061910d3ce",
+          "sha256": "08a32e9f360933cadbf2b57b12f399e72074097f778469397ac5e2f734e8b51e",
+          "sha1": "3f10ad3a34f67ebecfec2a5d68d816d3c8880719",
+          "md5": "7630b836ee3a706b867ee05cac86c7d1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "mdlive-core-models",
+          "version": {
+            "requires": "6.1.0.5-beta"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-labs-domain-6.1.0.5-beta.jar",
+          "url": "feature-labs-domain-6.1.0.5-beta.jar",
+          "size": 24142,
+          "sha512": "32750e8eb248f14ddd47e06ede06502347e42340946a989965d73559f3e154f0cab9644b3696afc4642e0f11f8b16f9aa06fbfff227bf827e0bee5061910d3ce",
+          "sha256": "08a32e9f360933cadbf2b57b12f399e72074097f778469397ac5e2f734e8b51e",
+          "sha1": "3f10ad3a34f67ebecfec2a5d68d816d3c8880719",
+          "md5": "7630b836ee3a706b867ee05cac86c7d1"
+        }
+      ]
+    }
+  ]
+}
