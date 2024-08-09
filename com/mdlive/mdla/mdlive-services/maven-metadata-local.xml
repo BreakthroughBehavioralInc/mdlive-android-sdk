@@ -3,11 +3,11 @@
   <groupId>com.mdlive.mdla</groupId>
   <artifactId>mdlive-services</artifactId>
   <versioning>
-    <latest>6.1.0.2-beta</latest>
-    <release>6.1.0.2-beta</release>
+    <latest>6.1.0.4-beta</latest>
+    <release>6.1.0.4-beta</release>
     <versions>
-      <version>6.1.0.2-beta</version>
+      <version>6.1.0.4-beta</version>
     </versions>
-    <lastUpdated>20240807213155</lastUpdated>
+    <lastUpdated>20240809171340</lastUpdated>
   </versioning>
 </metadata>

@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "mdlive-core-models",
+    "version": "6.1.0.4-beta",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mdlive-core-models-6.1.0.4-beta.jar",
+          "url": "mdlive-core-models-6.1.0.4-beta.jar",
+          "size": 215512,
+          "sha512": "62741d7980a24a1a8abe8a4e983d1d6e45df2197c836a733ec0e4f4ea3513f8976789bf5122fdf8b1efd9677831c92d667336134c9d0b3d8bb6729bba8d4b7f5",
+          "sha256": "247c22c37b49dde57c058733bb13a179a1bcd588a424a3d864e7facb1916cdfb",
+          "sha1": "3662d7ed8e259546915cce240359f0880d56fd7a",
+          "md5": "c1fcedaec6b99f1918c7a0a466fb84c3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mdlive-core-models-6.1.0.4-beta.jar",
+          "url": "mdlive-core-models-6.1.0.4-beta.jar",
+          "size": 215512,
+          "sha512": "62741d7980a24a1a8abe8a4e983d1d6e45df2197c836a733ec0e4f4ea3513f8976789bf5122fdf8b1efd9677831c92d667336134c9d0b3d8bb6729bba8d4b7f5",
+          "sha256": "247c22c37b49dde57c058733bb13a179a1bcd588a424a3d864e7facb1916cdfb",
+          "sha1": "3662d7ed8e259546915cce240359f0880d56fd7a",
+          "md5": "c1fcedaec6b99f1918c7a0a466fb84c3"
+        }
+      ]
+    }
+  ]
+}
