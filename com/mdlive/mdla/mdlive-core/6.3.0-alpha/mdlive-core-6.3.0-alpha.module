@@ -1,0 +1,315 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "mdlive-core",
+    "version": "6.3.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mdlive-core-6.3.0-alpha.aar",
+          "url": "mdlive-core-6.3.0-alpha.aar",
+          "size": 172534,
+          "sha512": "ab4df985e80a863cfe414246072bc8a7b0893f08313a7a99fdfea11f2738cf3fb2a470ebcfd612139329396c2a1bf9ff221aa5011492227be4ed02189fbaee67",
+          "sha256": "590e54ab851c65fd8052cd2323665af0f29195779d305a78379d82781a9e8f45",
+          "sha1": "f0e19e24ab871a11ab72003b336a4757ddbecd4f",
+          "md5": "4a75fa1d1b89b8122fe3fffab6c6b1d7"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-dashboard-ui",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-dashboard-data",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-dashboard-domain",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-debugmenu-ui",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-debugmenu-data",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-debugmenu-domain",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-ui",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-data",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-domain",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-pharmacy-ui",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-pharmacy-data",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-pharmacy-domain",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-account-recovery-ui",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-account-recovery-data",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-account-recovery-domain",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-template-ui",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-template-data",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-template-domain",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "mdlive-core-models",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "mdlive-ui",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.51.1"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "monitor",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.test.ext",
+          "module": "junit-ktx",
+          "version": {
+            "requires": "1.1.5"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-kotlin",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "com.pubnub",
+          "module": "pubnub-gson",
+          "version": {
+            "requires": "4.36.0"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.04.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.7.7"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mdlive-core-6.3.0-alpha.aar",
+          "url": "mdlive-core-6.3.0-alpha.aar",
+          "size": 172534,
+          "sha512": "ab4df985e80a863cfe414246072bc8a7b0893f08313a7a99fdfea11f2738cf3fb2a470ebcfd612139329396c2a1bf9ff221aa5011492227be4ed02189fbaee67",
+          "sha256": "590e54ab851c65fd8052cd2323665af0f29195779d305a78379d82781a9e8f45",
+          "sha1": "f0e19e24ab871a11ab72003b336a4757ddbecd4f",
+          "md5": "4a75fa1d1b89b8122fe3fffab6c6b1d7"
+        }
+      ]
+    }
+  ]
+}

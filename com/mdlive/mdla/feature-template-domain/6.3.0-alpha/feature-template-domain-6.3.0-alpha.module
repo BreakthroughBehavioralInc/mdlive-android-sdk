@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "feature-template-domain",
+    "version": "6.3.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-template-domain-6.3.0-alpha.jar",
+          "url": "feature-template-domain-6.3.0-alpha.jar",
+          "size": 2584,
+          "sha512": "f00a740a0f2ee1b2d37ba1aa78b4be8ebf2859a0250d35207741435a11ac56e7a520b12d655714630de735262144ef177852e59db69ac975ce8f6e96270f257d",
+          "sha256": "2fa30417863d588694cbe11f223ebfe16a5cc578b9254cff4e966530bc36caed",
+          "sha1": "232a24d4ba304908aa00b0533d09827cb2f537d8",
+          "md5": "ba55167b55bc5afb421d90b576395ac3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "mdlive-core-models",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-template-domain-6.3.0-alpha.jar",
+          "url": "feature-template-domain-6.3.0-alpha.jar",
+          "size": 2584,
+          "sha512": "f00a740a0f2ee1b2d37ba1aa78b4be8ebf2859a0250d35207741435a11ac56e7a520b12d655714630de735262144ef177852e59db69ac975ce8f6e96270f257d",
+          "sha256": "2fa30417863d588694cbe11f223ebfe16a5cc578b9254cff4e966530bc36caed",
+          "sha1": "232a24d4ba304908aa00b0533d09827cb2f537d8",
+          "md5": "ba55167b55bc5afb421d90b576395ac3"
+        }
+      ]
+    }
+  ]
+}

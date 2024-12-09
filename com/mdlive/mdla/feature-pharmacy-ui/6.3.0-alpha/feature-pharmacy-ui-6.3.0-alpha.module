@@ -1,0 +1,140 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "feature-pharmacy-ui",
+    "version": "6.3.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-pharmacy-ui-6.3.0-alpha.aar",
+          "url": "feature-pharmacy-ui-6.3.0-alpha.aar",
+          "size": 308669,
+          "sha512": "1be9cf511469c44e7032e498013b55c4832a7c96134bba7613b5a915319da2f932bc1ff236687882b7f75722e54fc6f9102ea5a657f660e84eb3bcf5156668a5",
+          "sha256": "c086f169b069588fa931f1aeef66e80531499343b95ba9a5a9af15bc39fd1842",
+          "sha1": "62b6d3682de221958c697dee42ceaa11ec927ecf",
+          "md5": "de2e5f7b853dbf186d36c87baf65108b"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-pharmacy-domain",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "mdlive-ui",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "mdlive-core-models",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.04.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.7.7"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "io.coil-kt",
+          "module": "coil-compose",
+          "version": {
+            "requires": "2.6.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-pharmacy-ui-6.3.0-alpha.aar",
+          "url": "feature-pharmacy-ui-6.3.0-alpha.aar",
+          "size": 308669,
+          "sha512": "1be9cf511469c44e7032e498013b55c4832a7c96134bba7613b5a915319da2f932bc1ff236687882b7f75722e54fc6f9102ea5a657f660e84eb3bcf5156668a5",
+          "sha256": "c086f169b069588fa931f1aeef66e80531499343b95ba9a5a9af15bc39fd1842",
+          "sha1": "62b6d3682de221958c697dee42ceaa11ec927ecf",
+          "md5": "de2e5f7b853dbf186d36c87baf65108b"
+        }
+      ]
+    }
+  ]
+}

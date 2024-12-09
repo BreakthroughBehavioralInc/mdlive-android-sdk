@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "feature-pharmacy-domain",
+    "version": "6.3.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-pharmacy-domain-6.3.0-alpha.jar",
+          "url": "feature-pharmacy-domain-6.3.0-alpha.jar",
+          "size": 23761,
+          "sha512": "ab4117beb5766b4c88a4709cbf6ac90cd1e4b0b1e9e8315905299e019cfbdbfb6de3905fbd5bf4a36f9a17d46c2ce8da674a19a1c85467a1f6141df1aa61e996",
+          "sha256": "c1a0072fbc6a9da963dde8b21625eb1b99f4fcfef50a30ae06515c82bf6aa465",
+          "sha1": "4cd918133ec0230b0aee621537eccea2358843a9",
+          "md5": "4300b6562602f0c5475fc34bd5e13a97"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "mdlive-core-models",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-pharmacy-domain-6.3.0-alpha.jar",
+          "url": "feature-pharmacy-domain-6.3.0-alpha.jar",
+          "size": 23761,
+          "sha512": "ab4117beb5766b4c88a4709cbf6ac90cd1e4b0b1e9e8315905299e019cfbdbfb6de3905fbd5bf4a36f9a17d46c2ce8da674a19a1c85467a1f6141df1aa61e996",
+          "sha256": "c1a0072fbc6a9da963dde8b21625eb1b99f4fcfef50a30ae06515c82bf6aa465",
+          "sha1": "4cd918133ec0230b0aee621537eccea2358843a9",
+          "md5": "4300b6562602f0c5475fc34bd5e13a97"
+        }
+      ]
+    }
+  ]
+}

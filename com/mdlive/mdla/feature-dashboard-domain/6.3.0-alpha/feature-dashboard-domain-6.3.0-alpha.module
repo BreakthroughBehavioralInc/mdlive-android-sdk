@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "feature-dashboard-domain",
+    "version": "6.3.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-dashboard-domain-6.3.0-alpha.jar",
+          "url": "feature-dashboard-domain-6.3.0-alpha.jar",
+          "size": 224775,
+          "sha512": "9abd2f5f1e38aeea22deb865bd290a6e5e8ef02fde689040b43e312bd5462b434ba68afbe395d99d7831c231885c1cffdf8833ab415260e309853260305718ac",
+          "sha256": "94a209ecfe4f1eafb2c6b73bcf1baf80a3a1ad438bcc23cf42c0bee75e07a68e",
+          "sha1": "fe0e53364dbf1557a4d327ce2fd95dd10ad3ff76",
+          "md5": "9a3accd81407d24fbf7c227f40b9c145"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "mdlive-core-models",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-debugmenu-domain",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-dashboard-domain-6.3.0-alpha.jar",
+          "url": "feature-dashboard-domain-6.3.0-alpha.jar",
+          "size": 224775,
+          "sha512": "9abd2f5f1e38aeea22deb865bd290a6e5e8ef02fde689040b43e312bd5462b434ba68afbe395d99d7831c231885c1cffdf8833ab415260e309853260305718ac",
+          "sha256": "94a209ecfe4f1eafb2c6b73bcf1baf80a3a1ad438bcc23cf42c0bee75e07a68e",
+          "sha1": "fe0e53364dbf1557a4d327ce2fd95dd10ad3ff76",
+          "md5": "9a3accd81407d24fbf7c227f40b9c145"
+        }
+      ]
+    }
+  ]
+}

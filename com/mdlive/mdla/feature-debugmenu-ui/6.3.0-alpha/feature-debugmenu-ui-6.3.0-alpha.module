@@ -1,0 +1,217 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "feature-debugmenu-ui",
+    "version": "6.3.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-debugmenu-ui-6.3.0-alpha.aar",
+          "url": "feature-debugmenu-ui-6.3.0-alpha.aar",
+          "size": 610510,
+          "sha512": "aa7f64005c6f5ca2a274aa261d572c3fc8e6bb572835cabc107305fde9075811f77b6293cdd8ad76d4da4a2f139ca1c254cba315e52e255a56bd79f5ea93be7f",
+          "sha256": "5c2870d774085be911c076c3211aaf517db178a53f6930b33de78377f2b24f52",
+          "sha1": "bb9d8466017b275a33bfa01ace9b17dcc1967d80",
+          "md5": "fe3cfdc53f51a982e281648473a7836a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-debugmenu-data",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-debugmenu-domain",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "mdlive-ui",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "mdlive-core-models",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-account-recovery-ui",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-account-recovery-domain",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-dashboard-ui",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-dashboard-domain",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-ui",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-domain",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-pharmacy-ui",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "feature-pharmacy-domain",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "com.google.dagger",
+          "module": "dagger",
+          "version": {
+            "requires": "2.51.1"
+          }
+        },
+        {
+          "group": "androidx.test",
+          "module": "monitor",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.test.ext",
+          "module": "junit-ktx",
+          "version": {
+            "requires": "1.1.5"
+          }
+        },
+        {
+          "group": "androidx.compose",
+          "module": "compose-bom",
+          "version": {
+            "requires": "2024.04.00"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          }
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui"
+        },
+        {
+          "group": "androidx.compose.material3",
+          "module": "material3"
+        },
+        {
+          "group": "androidx.compose.ui",
+          "module": "ui-tooling-preview"
+        },
+        {
+          "group": "androidx.navigation",
+          "module": "navigation-compose",
+          "version": {
+            "requires": "2.7.7"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-compose",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "feature-debugmenu-ui-6.3.0-alpha.aar",
+          "url": "feature-debugmenu-ui-6.3.0-alpha.aar",
+          "size": 610510,
+          "sha512": "aa7f64005c6f5ca2a274aa261d572c3fc8e6bb572835cabc107305fde9075811f77b6293cdd8ad76d4da4a2f139ca1c254cba315e52e255a56bd79f5ea93be7f",
+          "sha256": "5c2870d774085be911c076c3211aaf517db178a53f6930b33de78377f2b24f52",
+          "sha1": "bb9d8466017b275a33bfa01ace9b17dcc1967d80",
+          "md5": "fe3cfdc53f51a982e281648473a7836a"
+        }
+      ]
+    }
+  ]
+}

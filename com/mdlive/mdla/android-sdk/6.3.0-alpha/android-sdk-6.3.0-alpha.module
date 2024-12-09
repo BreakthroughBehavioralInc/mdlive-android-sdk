@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.mdlive.mdla",
+    "module": "android-sdk",
+    "version": "6.3.0-alpha",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.mdlive.mdla",
+          "module": "android-core",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-sdk-6.3.0-alpha.aar",
+          "url": "android-sdk-6.3.0-alpha.aar",
+          "size": 19840,
+          "sha512": "ebddb364c12e249ea11b5150b9cd522bd2bde9f51429f623332ef32b25f575fd29191665220c03ec19cebab5fe7fa4c58037176ae11aaa58ffa386d679d04a1d",
+          "sha256": "e7ae8e2d234bf2d21e9111837d72405471897b85829d0765303381ff3b89b06c",
+          "sha1": "77b48cee4f45a7c0be5891788ae917073a247bb9",
+          "md5": "bbd9c9197ff9819340651aa5a8c45bf5"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.mdlive.mdla",
+          "module": "android-core",
+          "version": {
+            "requires": "6.3.0-alpha"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "7.4.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "7.4.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-sdk-6.3.0-alpha.aar",
+          "url": "android-sdk-6.3.0-alpha.aar",
+          "size": 19840,
+          "sha512": "ebddb364c12e249ea11b5150b9cd522bd2bde9f51429f623332ef32b25f575fd29191665220c03ec19cebab5fe7fa4c58037176ae11aaa58ffa386d679d04a1d",
+          "sha256": "e7ae8e2d234bf2d21e9111837d72405471897b85829d0765303381ff3b89b06c",
+          "sha1": "77b48cee4f45a7c0be5891788ae917073a247bb9",
+          "md5": "bbd9c9197ff9819340651aa5a8c45bf5"
+        }
+      ]
+    }
+  ]
+}
