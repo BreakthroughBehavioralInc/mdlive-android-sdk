@@ -39,10 +39,10 @@
           "name": "feature-pharmacy-domain-6.3.0-alpha.jar",
           "url": "feature-pharmacy-domain-6.3.0-alpha.jar",
           "size": 23761,
-          "sha512": "ab4117beb5766b4c88a4709cbf6ac90cd1e4b0b1e9e8315905299e019cfbdbfb6de3905fbd5bf4a36f9a17d46c2ce8da674a19a1c85467a1f6141df1aa61e996",
-          "sha256": "c1a0072fbc6a9da963dde8b21625eb1b99f4fcfef50a30ae06515c82bf6aa465",
-          "sha1": "4cd918133ec0230b0aee621537eccea2358843a9",
-          "md5": "4300b6562602f0c5475fc34bd5e13a97"
+          "sha512": "920188d41000a18bc20d793c3a82c285cb7078d8503459020e71ce528fe9b7cee4348a2f21e4de0390dbb1d45cdd6c1a6829ad5fe89018a57ea9fbb8020ec773",
+          "sha256": "ad263fd3092fabf26ae588218208c2ce34717188fe9dc513b82fbec06710cfa6",
+          "sha1": "8e946783a280cbdd6847e58da5f4aff3ab822f41",
+          "md5": "dbb945689623c4f3fcb751e59be0d501"
         }
       ]
     },
@@ -85,10 +85,10 @@
           "name": "feature-pharmacy-domain-6.3.0-alpha.jar",
           "url": "feature-pharmacy-domain-6.3.0-alpha.jar",
           "size": 23761,
-          "sha512": "ab4117beb5766b4c88a4709cbf6ac90cd1e4b0b1e9e8315905299e019cfbdbfb6de3905fbd5bf4a36f9a17d46c2ce8da674a19a1c85467a1f6141df1aa61e996",
-          "sha256": "c1a0072fbc6a9da963dde8b21625eb1b99f4fcfef50a30ae06515c82bf6aa465",
-          "sha1": "4cd918133ec0230b0aee621537eccea2358843a9",
-          "md5": "4300b6562602f0c5475fc34bd5e13a97"
+          "sha512": "920188d41000a18bc20d793c3a82c285cb7078d8503459020e71ce528fe9b7cee4348a2f21e4de0390dbb1d45cdd6c1a6829ad5fe89018a57ea9fbb8020ec773",
+          "sha256": "ad263fd3092fabf26ae588218208c2ce34717188fe9dc513b82fbec06710cfa6",
+          "sha1": "8e946783a280cbdd6847e58da5f4aff3ab822f41",
+          "md5": "dbb945689623c4f3fcb751e59be0d501"
         }
       ]
     }

@@ -35,11 +35,11 @@
         {
           "name": "feature-dashboard-ui-6.3.0-alpha.aar",
           "url": "feature-dashboard-ui-6.3.0-alpha.aar",
-          "size": 1636641,
-          "sha512": "820b36ae5aee4a4bf9fab1be849abebc802190c6de42eecf192aa7a5631e8c305d33d4c9b80625f45425ff7d92bcb7a2bda3f1ec859b4a87bf5eb84ec2afc4dc",
-          "sha256": "ca151d58bcfee8a6d9fa4cfe7628c473929629cc67269dcb414cea95fc946f7a",
-          "sha1": "bed708892341d7c1c0220f884d91732c0b9b64a6",
-          "md5": "f2c7d1824fa334926b8ebff66b2b5054"
+          "size": 1673851,
+          "sha512": "4da66c6cbe274fc515362a82c1100bfe10125e9b99dc328fa7ce46db50b1d808ec55041b6565eebb43b53788c0b2b4aee7df3fdca20258cbb4d3602a85d6b2c5",
+          "sha256": "6556165bfd0970b22ebe8f4b2848ad13f55a298b184acc8aa17893d2c29af1c9",
+          "sha1": "2d991369b43c7ca50a3eb2bf7a8c50af03c56998",
+          "md5": "3d624c4167569f5ef4eb485b05877a3c"
         }
       ]
     },
@@ -103,6 +103,13 @@
           }
         },
         {
+          "group": "com.google.accompanist",
+          "module": "accompanist-navigation-material",
+          "version": {
+            "requires": "0.34.0"
+          }
+        },
+        {
           "group": "androidx.lifecycle",
           "module": "lifecycle-runtime-compose",
           "version": {
@@ -160,11 +167,11 @@
         {
           "name": "feature-dashboard-ui-6.3.0-alpha.aar",
           "url": "feature-dashboard-ui-6.3.0-alpha.aar",
-          "size": 1636641,
-          "sha512": "820b36ae5aee4a4bf9fab1be849abebc802190c6de42eecf192aa7a5631e8c305d33d4c9b80625f45425ff7d92bcb7a2bda3f1ec859b4a87bf5eb84ec2afc4dc",
-          "sha256": "ca151d58bcfee8a6d9fa4cfe7628c473929629cc67269dcb414cea95fc946f7a",
-          "sha1": "bed708892341d7c1c0220f884d91732c0b9b64a6",
-          "md5": "f2c7d1824fa334926b8ebff66b2b5054"
+          "size": 1673851,
+          "sha512": "4da66c6cbe274fc515362a82c1100bfe10125e9b99dc328fa7ce46db50b1d808ec55041b6565eebb43b53788c0b2b4aee7df3fdca20258cbb4d3602a85d6b2c5",
+          "sha256": "6556165bfd0970b22ebe8f4b2848ad13f55a298b184acc8aa17893d2c29af1c9",
+          "sha1": "2d991369b43c7ca50a3eb2bf7a8c50af03c56998",
+          "md5": "3d624c4167569f5ef4eb485b05877a3c"
         }
       ]
     }

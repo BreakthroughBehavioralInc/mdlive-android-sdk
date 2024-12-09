@@ -35,11 +35,11 @@
         {
           "name": "mdlive-ui-6.3.0-alpha.aar",
           "url": "mdlive-ui-6.3.0-alpha.aar",
-          "size": 3098572,
-          "sha512": "39dccca3db5973eda0847303eb9745ffc20e11f65593618883353654bcc2612bed4e727c3042a8da37957d7ced2e838afa4ba4fe2533bc0924dbca7c6fa8e475",
-          "sha256": "4f3f3c088eba0e279cc9cf762fee5ad7244fcbb315d51471fb93c4cd6e53a785",
-          "sha1": "32c4483311c52765fb34a76e2eeb16b62702f27f",
-          "md5": "286e72c620c8682885b35e5ca4bfe704"
+          "size": 3099195,
+          "sha512": "c7aec9ce3b960fbb95ce9fb2ee7822ef7c0bac43bd1e134d36f3a35dcd44a233f830b04e5eccdfd79387e2c2cc20edf914f763dc92187d7fd92393ae9d9635b8",
+          "sha256": "8ae16b0759ee8b745ff7d755600353bfff950f52779f41568a7928b2757e322e",
+          "sha1": "72982f7cfa3c970a9aef9cb607419e89f5bd0876",
+          "md5": "251d8a5eaca3f151ac8b450339021b59"
         }
       ]
     },
@@ -86,6 +86,13 @@
           "module": "navigation-compose",
           "version": {
             "requires": "2.7.7"
+          }
+        },
+        {
+          "group": "com.google.accompanist",
+          "module": "accompanist-navigation-material",
+          "version": {
+            "requires": "0.34.0"
           }
         },
         {
@@ -143,11 +150,11 @@
         {
           "name": "mdlive-ui-6.3.0-alpha.aar",
           "url": "mdlive-ui-6.3.0-alpha.aar",
-          "size": 3098572,
-          "sha512": "39dccca3db5973eda0847303eb9745ffc20e11f65593618883353654bcc2612bed4e727c3042a8da37957d7ced2e838afa4ba4fe2533bc0924dbca7c6fa8e475",
-          "sha256": "4f3f3c088eba0e279cc9cf762fee5ad7244fcbb315d51471fb93c4cd6e53a785",
-          "sha1": "32c4483311c52765fb34a76e2eeb16b62702f27f",
-          "md5": "286e72c620c8682885b35e5ca4bfe704"
+          "size": 3099195,
+          "sha512": "c7aec9ce3b960fbb95ce9fb2ee7822ef7c0bac43bd1e134d36f3a35dcd44a233f830b04e5eccdfd79387e2c2cc20edf914f763dc92187d7fd92393ae9d9635b8",
+          "sha256": "8ae16b0759ee8b745ff7d755600353bfff950f52779f41568a7928b2757e322e",
+          "sha1": "72982f7cfa3c970a9aef9cb607419e89f5bd0876",
+          "md5": "251d8a5eaca3f151ac8b450339021b59"
         }
       ]
     }

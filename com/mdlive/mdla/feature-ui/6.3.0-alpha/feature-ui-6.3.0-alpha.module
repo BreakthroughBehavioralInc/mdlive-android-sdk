@@ -110,6 +110,13 @@
           }
         },
         {
+          "group": "com.google.accompanist",
+          "module": "accompanist-navigation-material",
+          "version": {
+            "requires": "0.34.0"
+          }
+        },
+        {
           "group": "androidx.lifecycle",
           "module": "lifecycle-runtime-compose",
           "version": {

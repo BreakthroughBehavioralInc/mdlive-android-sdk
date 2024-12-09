@@ -39,10 +39,10 @@
           "name": "feature-account-recovery-domain-6.3.0-alpha.jar",
           "url": "feature-account-recovery-domain-6.3.0-alpha.jar",
           "size": 61599,
-          "sha512": "838a7aa243fcc5c423f03daf580bd46cf3faa3c4d8857db61a9580e20de5e07136a4399fd05c0bb271c25b4d07048d40cfd1fb6a648495e991a85b058f747fcb",
-          "sha256": "53a13c8c126451d892bfebdf6df0b10508147d573956d1330b9a53572baf743d",
-          "sha1": "93da030f025fe614b5c604382f5efb26bde4de39",
-          "md5": "31c78daed2ddb0614b3505a6662897a3"
+          "sha512": "5734d66449d1ffc5769ac0b623c5a6625aaad9e197498fe8ac85b99873e44302047aeae1c419790532859df3b425289250f9b78a233202aaf4746e40ed9f861c",
+          "sha256": "206722d4b0877a306b994c550625d6d5957fea86b3554a4fb05144bad6d411a6",
+          "sha1": "4ba68d2f35ddf3f53d467cc503eaa7401ec2fb6a",
+          "md5": "4bf10f0f0310bf67de1f282918617ffe"
         }
       ]
     },
@@ -85,10 +85,10 @@
           "name": "feature-account-recovery-domain-6.3.0-alpha.jar",
           "url": "feature-account-recovery-domain-6.3.0-alpha.jar",
           "size": 61599,
-          "sha512": "838a7aa243fcc5c423f03daf580bd46cf3faa3c4d8857db61a9580e20de5e07136a4399fd05c0bb271c25b4d07048d40cfd1fb6a648495e991a85b058f747fcb",
-          "sha256": "53a13c8c126451d892bfebdf6df0b10508147d573956d1330b9a53572baf743d",
-          "sha1": "93da030f025fe614b5c604382f5efb26bde4de39",
-          "md5": "31c78daed2ddb0614b3505a6662897a3"
+          "sha512": "5734d66449d1ffc5769ac0b623c5a6625aaad9e197498fe8ac85b99873e44302047aeae1c419790532859df3b425289250f9b78a233202aaf4746e40ed9f861c",
+          "sha256": "206722d4b0877a306b994c550625d6d5957fea86b3554a4fb05144bad6d411a6",
+          "sha1": "4ba68d2f35ddf3f53d467cc503eaa7401ec2fb6a",
+          "md5": "4bf10f0f0310bf67de1f282918617ffe"
         }
       ]
     }

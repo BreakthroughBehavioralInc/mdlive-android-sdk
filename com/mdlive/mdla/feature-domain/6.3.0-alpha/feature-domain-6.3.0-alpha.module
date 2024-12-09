@@ -39,10 +39,10 @@
           "name": "feature-domain-6.3.0-alpha.jar",
           "url": "feature-domain-6.3.0-alpha.jar",
           "size": 24468,
-          "sha512": "729412172e96c3fea53712ade1c23442484c15f71454bc4cef8c55942ef88b4df3af918f642d54bb028870f8fc6ce922f8df45a00ae810123ee7e1059b220c17",
-          "sha256": "5794412dc94b0a3f85642fba37d3f7c6c1ef96359b493b7211a96b31bc8a3fb5",
-          "sha1": "8f53607927614e0c773d54cbfb53febdfbeef5d8",
-          "md5": "829e3fb5b8007cdb773257d0c14202db"
+          "sha512": "1518b7c32a4044c6b17bbf6544322a46800c6654f069147b558ae7b7a36ab202a212e5e20ca955ec853f3f0db9bc9ace613193abefedb38598168137f4a5d96f",
+          "sha256": "11edabdca068166019327fce96151a9bb494ad511505b6c944a67480724144eb",
+          "sha1": "961cc46c6db47660048d3b6ccc443a764aa342f8",
+          "md5": "e3bd2c0dda36d626832f13fab1e9b1b5"
         }
       ]
     },
@@ -85,10 +85,10 @@
           "name": "feature-domain-6.3.0-alpha.jar",
           "url": "feature-domain-6.3.0-alpha.jar",
           "size": 24468,
-          "sha512": "729412172e96c3fea53712ade1c23442484c15f71454bc4cef8c55942ef88b4df3af918f642d54bb028870f8fc6ce922f8df45a00ae810123ee7e1059b220c17",
-          "sha256": "5794412dc94b0a3f85642fba37d3f7c6c1ef96359b493b7211a96b31bc8a3fb5",
-          "sha1": "8f53607927614e0c773d54cbfb53febdfbeef5d8",
-          "md5": "829e3fb5b8007cdb773257d0c14202db"
+          "sha512": "1518b7c32a4044c6b17bbf6544322a46800c6654f069147b558ae7b7a36ab202a212e5e20ca955ec853f3f0db9bc9ace613193abefedb38598168137f4a5d96f",
+          "sha256": "11edabdca068166019327fce96151a9bb494ad511505b6c944a67480724144eb",
+          "sha1": "961cc46c6db47660048d3b6ccc443a764aa342f8",
+          "md5": "e3bd2c0dda36d626832f13fab1e9b1b5"
         }
       ]
     }

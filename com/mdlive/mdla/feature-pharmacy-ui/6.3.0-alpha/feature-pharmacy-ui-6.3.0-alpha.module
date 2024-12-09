@@ -35,11 +35,11 @@
         {
           "name": "feature-pharmacy-ui-6.3.0-alpha.aar",
           "url": "feature-pharmacy-ui-6.3.0-alpha.aar",
-          "size": 308669,
-          "sha512": "1be9cf511469c44e7032e498013b55c4832a7c96134bba7613b5a915319da2f932bc1ff236687882b7f75722e54fc6f9102ea5a657f660e84eb3bcf5156668a5",
-          "sha256": "c086f169b069588fa931f1aeef66e80531499343b95ba9a5a9af15bc39fd1842",
-          "sha1": "62b6d3682de221958c697dee42ceaa11ec927ecf",
-          "md5": "de2e5f7b853dbf186d36c87baf65108b"
+          "size": 308482,
+          "sha512": "8c4d3f89b1ef52066b3976dd693be7ff9434354c7ebbbf4d4c34038704eafaf2fcf9dcbe7714a91d2b2867e3c6ba7b5c443126732458791d38eec068fb2346ba",
+          "sha256": "2ac8999361d8072350942c6ad2d3dbd267051ef095038787a4c16cab3792ae9f",
+          "sha1": "ea3357da2b78a45169eab7bdd063dbcc151fe2b3",
+          "md5": "d3a813125fe37984d31dba7dab6df6a9"
         }
       ]
     },
@@ -103,6 +103,13 @@
           }
         },
         {
+          "group": "com.google.accompanist",
+          "module": "accompanist-navigation-material",
+          "version": {
+            "requires": "0.34.0"
+          }
+        },
+        {
           "group": "androidx.lifecycle",
           "module": "lifecycle-runtime-compose",
           "version": {
@@ -128,11 +135,11 @@
         {
           "name": "feature-pharmacy-ui-6.3.0-alpha.aar",
           "url": "feature-pharmacy-ui-6.3.0-alpha.aar",
-          "size": 308669,
-          "sha512": "1be9cf511469c44e7032e498013b55c4832a7c96134bba7613b5a915319da2f932bc1ff236687882b7f75722e54fc6f9102ea5a657f660e84eb3bcf5156668a5",
-          "sha256": "c086f169b069588fa931f1aeef66e80531499343b95ba9a5a9af15bc39fd1842",
-          "sha1": "62b6d3682de221958c697dee42ceaa11ec927ecf",
-          "md5": "de2e5f7b853dbf186d36c87baf65108b"
+          "size": 308482,
+          "sha512": "8c4d3f89b1ef52066b3976dd693be7ff9434354c7ebbbf4d4c34038704eafaf2fcf9dcbe7714a91d2b2867e3c6ba7b5c443126732458791d38eec068fb2346ba",
+          "sha256": "2ac8999361d8072350942c6ad2d3dbd267051ef095038787a4c16cab3792ae9f",
+          "sha1": "ea3357da2b78a45169eab7bdd063dbcc151fe2b3",
+          "md5": "d3a813125fe37984d31dba7dab6df6a9"
         }
       ]
     }

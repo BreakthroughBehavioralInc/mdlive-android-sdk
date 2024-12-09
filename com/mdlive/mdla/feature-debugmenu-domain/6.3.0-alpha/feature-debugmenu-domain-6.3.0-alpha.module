@@ -39,10 +39,10 @@
           "name": "feature-debugmenu-domain-6.3.0-alpha.jar",
           "url": "feature-debugmenu-domain-6.3.0-alpha.jar",
           "size": 12835,
-          "sha512": "eaae6483db1bb47b11405d9170ef2174f35de2d8b077091b76b70a102cb94f63c15b69bfc0d2cd448a502a14726957393c3e40d306a81c757c1b834e74981af0",
-          "sha256": "767e8b66ac9bbf91a75e9da55e585c58acc8e00d2b3782d9ae151066c3be7abc",
-          "sha1": "3f0f635f33496e44cf5b57f19256546618978120",
-          "md5": "2336b1adf9717f0f6c8978adf665558f"
+          "sha512": "b681d77453496eff9eaf542187568ea70bb1c674635d888606b0b2d502c4495e6ec39ed21051d7ddd2ee80ed80264517cf273a1123fde34df661ffb8329054c0",
+          "sha256": "49400cbb7f94eb258d229a2aab5b979cedc892299f2cc3c715f23a1fb8139da4",
+          "sha1": "1d5f3401ec5a96e01116d9d66b44dbddb24b7670",
+          "md5": "5ff14d3c317e05ffdc3cb828f4c22694"
         }
       ]
     },
@@ -85,10 +85,10 @@
           "name": "feature-debugmenu-domain-6.3.0-alpha.jar",
           "url": "feature-debugmenu-domain-6.3.0-alpha.jar",
           "size": 12835,
-          "sha512": "eaae6483db1bb47b11405d9170ef2174f35de2d8b077091b76b70a102cb94f63c15b69bfc0d2cd448a502a14726957393c3e40d306a81c757c1b834e74981af0",
-          "sha256": "767e8b66ac9bbf91a75e9da55e585c58acc8e00d2b3782d9ae151066c3be7abc",
-          "sha1": "3f0f635f33496e44cf5b57f19256546618978120",
-          "md5": "2336b1adf9717f0f6c8978adf665558f"
+          "sha512": "b681d77453496eff9eaf542187568ea70bb1c674635d888606b0b2d502c4495e6ec39ed21051d7ddd2ee80ed80264517cf273a1123fde34df661ffb8329054c0",
+          "sha256": "49400cbb7f94eb258d229a2aab5b979cedc892299f2cc3c715f23a1fb8139da4",
+          "sha1": "1d5f3401ec5a96e01116d9d66b44dbddb24b7670",
+          "md5": "5ff14d3c317e05ffdc3cb828f4c22694"
         }
       ]
     }

@@ -141,6 +141,12 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
+      <groupId>com.google.accompanist</groupId>
+      <artifactId>accompanist-navigation-material</artifactId>
+      <version>0.34.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>androidx.lifecycle</groupId>
       <artifactId>lifecycle-runtime-compose</artifactId>
       <version>2.7.0</version>

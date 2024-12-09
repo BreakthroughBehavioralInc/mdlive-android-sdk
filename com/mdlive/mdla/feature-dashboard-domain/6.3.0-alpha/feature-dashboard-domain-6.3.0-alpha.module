@@ -39,10 +39,10 @@
           "name": "feature-dashboard-domain-6.3.0-alpha.jar",
           "url": "feature-dashboard-domain-6.3.0-alpha.jar",
           "size": 224775,
-          "sha512": "9abd2f5f1e38aeea22deb865bd290a6e5e8ef02fde689040b43e312bd5462b434ba68afbe395d99d7831c231885c1cffdf8833ab415260e309853260305718ac",
-          "sha256": "94a209ecfe4f1eafb2c6b73bcf1baf80a3a1ad438bcc23cf42c0bee75e07a68e",
-          "sha1": "fe0e53364dbf1557a4d327ce2fd95dd10ad3ff76",
-          "md5": "9a3accd81407d24fbf7c227f40b9c145"
+          "sha512": "e913f78d326c87ca0b775c7b244e729f5e384ff9abc32b68b8ca9cb3efaf4ab82a6790cda011aab59e28a0bc341152ec7d0d9acf113a6c4927fb89f926382af0",
+          "sha256": "b0c83a38fdfd63ae4b8b60ce1c4d76378450d1938ca02c5b764d4abda9d16db2",
+          "sha1": "4fb6e9aba094bd631d466494b5d3d387e4d8c5f2",
+          "md5": "0adb4eab0a6a520014dcc4db3254e182"
         }
       ]
     },
@@ -99,10 +99,10 @@
           "name": "feature-dashboard-domain-6.3.0-alpha.jar",
           "url": "feature-dashboard-domain-6.3.0-alpha.jar",
           "size": 224775,
-          "sha512": "9abd2f5f1e38aeea22deb865bd290a6e5e8ef02fde689040b43e312bd5462b434ba68afbe395d99d7831c231885c1cffdf8833ab415260e309853260305718ac",
-          "sha256": "94a209ecfe4f1eafb2c6b73bcf1baf80a3a1ad438bcc23cf42c0bee75e07a68e",
-          "sha1": "fe0e53364dbf1557a4d327ce2fd95dd10ad3ff76",
-          "md5": "9a3accd81407d24fbf7c227f40b9c145"
+          "sha512": "e913f78d326c87ca0b775c7b244e729f5e384ff9abc32b68b8ca9cb3efaf4ab82a6790cda011aab59e28a0bc341152ec7d0d9acf113a6c4927fb89f926382af0",
+          "sha256": "b0c83a38fdfd63ae4b8b60ce1c4d76378450d1938ca02c5b764d4abda9d16db2",
+          "sha1": "4fb6e9aba094bd631d466494b5d3d387e4d8c5f2",
+          "md5": "0adb4eab0a6a520014dcc4db3254e182"
         }
       ]
     }

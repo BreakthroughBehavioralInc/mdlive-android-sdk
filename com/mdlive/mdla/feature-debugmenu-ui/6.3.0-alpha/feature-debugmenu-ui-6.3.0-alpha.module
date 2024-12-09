@@ -35,11 +35,11 @@
         {
           "name": "feature-debugmenu-ui-6.3.0-alpha.aar",
           "url": "feature-debugmenu-ui-6.3.0-alpha.aar",
-          "size": 610510,
-          "sha512": "aa7f64005c6f5ca2a274aa261d572c3fc8e6bb572835cabc107305fde9075811f77b6293cdd8ad76d4da4a2f139ca1c254cba315e52e255a56bd79f5ea93be7f",
-          "sha256": "5c2870d774085be911c076c3211aaf517db178a53f6930b33de78377f2b24f52",
-          "sha1": "bb9d8466017b275a33bfa01ace9b17dcc1967d80",
-          "md5": "fe3cfdc53f51a982e281648473a7836a"
+          "size": 625616,
+          "sha512": "d18d23178e9d5d72c57a6365cda802843f84c252e2fd551957d442962923bc8d9f3ab2b0772914022a7d21351f251513f62dcab3f4504763f4fa4f5b2ee46292",
+          "sha256": "e4da2bdfedff5213ba208e4c7004e855813defa3ae9392477085b572ed2d0e7d",
+          "sha1": "14b7801ce42db0dc783d52a7162c2920f316c079",
+          "md5": "28d4e22a2cb0baefa512ddf7c1d6cdcf"
         }
       ]
     },
@@ -187,6 +187,13 @@
           }
         },
         {
+          "group": "com.google.accompanist",
+          "module": "accompanist-navigation-material",
+          "version": {
+            "requires": "0.34.0"
+          }
+        },
+        {
           "group": "androidx.lifecycle",
           "module": "lifecycle-runtime-compose",
           "version": {
@@ -205,11 +212,11 @@
         {
           "name": "feature-debugmenu-ui-6.3.0-alpha.aar",
           "url": "feature-debugmenu-ui-6.3.0-alpha.aar",
-          "size": 610510,
-          "sha512": "aa7f64005c6f5ca2a274aa261d572c3fc8e6bb572835cabc107305fde9075811f77b6293cdd8ad76d4da4a2f139ca1c254cba315e52e255a56bd79f5ea93be7f",
-          "sha256": "5c2870d774085be911c076c3211aaf517db178a53f6930b33de78377f2b24f52",
-          "sha1": "bb9d8466017b275a33bfa01ace9b17dcc1967d80",
-          "md5": "fe3cfdc53f51a982e281648473a7836a"
+          "size": 625616,
+          "sha512": "d18d23178e9d5d72c57a6365cda802843f84c252e2fd551957d442962923bc8d9f3ab2b0772914022a7d21351f251513f62dcab3f4504763f4fa4f5b2ee46292",
+          "sha256": "e4da2bdfedff5213ba208e4c7004e855813defa3ae9392477085b572ed2d0e7d",
+          "sha1": "14b7801ce42db0dc783d52a7162c2920f316c079",
+          "md5": "28d4e22a2cb0baefa512ddf7c1d6cdcf"
         }
       ]
     }

@@ -35,11 +35,11 @@
         {
           "name": "mdlive-core-6.3.0-alpha.aar",
           "url": "mdlive-core-6.3.0-alpha.aar",
-          "size": 172534,
-          "sha512": "ab4df985e80a863cfe414246072bc8a7b0893f08313a7a99fdfea11f2738cf3fb2a470ebcfd612139329396c2a1bf9ff221aa5011492227be4ed02189fbaee67",
-          "sha256": "590e54ab851c65fd8052cd2323665af0f29195779d305a78379d82781a9e8f45",
-          "sha1": "f0e19e24ab871a11ab72003b336a4757ddbecd4f",
-          "md5": "4a75fa1d1b89b8122fe3fffab6c6b1d7"
+          "size": 173000,
+          "sha512": "c40f4252c5a4f3c6f257c075115edb1bb99c45c45a0ecbfe62130708bdbc0f586594e77d60c47da7eb773bf58a5e0ce23c96736d17c15d32637d19838c3e366a",
+          "sha256": "1a8ddcab9617e8ab0198cbd11f988236cabbcccff4f10a7acde0416cd3dfe377",
+          "sha1": "7a1d5e84cd67a74c37894618fb981c4e560fc3e4",
+          "md5": "ef1c127d215c7f4dee10ca4bf850d452"
         }
       ]
     },
@@ -285,6 +285,13 @@
           }
         },
         {
+          "group": "com.google.accompanist",
+          "module": "accompanist-navigation-material",
+          "version": {
+            "requires": "0.34.0"
+          }
+        },
+        {
           "group": "androidx.lifecycle",
           "module": "lifecycle-runtime-compose",
           "version": {
@@ -303,11 +310,11 @@
         {
           "name": "mdlive-core-6.3.0-alpha.aar",
           "url": "mdlive-core-6.3.0-alpha.aar",
-          "size": 172534,
-          "sha512": "ab4df985e80a863cfe414246072bc8a7b0893f08313a7a99fdfea11f2738cf3fb2a470ebcfd612139329396c2a1bf9ff221aa5011492227be4ed02189fbaee67",
-          "sha256": "590e54ab851c65fd8052cd2323665af0f29195779d305a78379d82781a9e8f45",
-          "sha1": "f0e19e24ab871a11ab72003b336a4757ddbecd4f",
-          "md5": "4a75fa1d1b89b8122fe3fffab6c6b1d7"
+          "size": 173000,
+          "sha512": "c40f4252c5a4f3c6f257c075115edb1bb99c45c45a0ecbfe62130708bdbc0f586594e77d60c47da7eb773bf58a5e0ce23c96736d17c15d32637d19838c3e366a",
+          "sha256": "1a8ddcab9617e8ab0198cbd11f988236cabbcccff4f10a7acde0416cd3dfe377",
+          "sha1": "7a1d5e84cd67a74c37894618fb981c4e560fc3e4",
+          "md5": "ef1c127d215c7f4dee10ca4bf850d452"
         }
       ]
     }

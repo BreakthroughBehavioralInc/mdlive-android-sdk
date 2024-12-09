@@ -30,10 +30,10 @@
           "name": "mdlive-common-6.3.0-alpha.jar",
           "url": "mdlive-common-6.3.0-alpha.jar",
           "size": 16247,
-          "sha512": "fab7f05c9e038218c72f2175d338da56a2056d68c519fd92769f047afa7e05c84cba19d6e5b640ebe2c5448964124d2fdcd83cf8e93538a8ef07b973970d395f",
-          "sha256": "65207a6bceeddb68f081716879baa1005b5284f023b1481332309eafb7bb4de5",
-          "sha1": "f91b40864d2afc20ea336856b834becfee17b279",
-          "md5": "05a4b0d74660645978415bbbdea265ab"
+          "sha512": "ea955de63573d7df88fb72e06dd043146666e2336535010836a0efb6e6f5085af1900cef490959b64cd725f6efcbd0e3833761ced267f04e53128109d61f2b46",
+          "sha256": "f24450cb5759a6ff8a5cbc33271d8b322b6f228cdfce76ec2990ba29726fb622",
+          "sha1": "5e72b57eb653887b02e7ca0a8f6d56b4efe85773",
+          "md5": "02b328678d488487007cfcccbb64c3a6"
         }
       ]
     },
@@ -76,10 +76,10 @@
           "name": "mdlive-common-6.3.0-alpha.jar",
           "url": "mdlive-common-6.3.0-alpha.jar",
           "size": 16247,
-          "sha512": "fab7f05c9e038218c72f2175d338da56a2056d68c519fd92769f047afa7e05c84cba19d6e5b640ebe2c5448964124d2fdcd83cf8e93538a8ef07b973970d395f",
-          "sha256": "65207a6bceeddb68f081716879baa1005b5284f023b1481332309eafb7bb4de5",
-          "sha1": "f91b40864d2afc20ea336856b834becfee17b279",
-          "md5": "05a4b0d74660645978415bbbdea265ab"
+          "sha512": "ea955de63573d7df88fb72e06dd043146666e2336535010836a0efb6e6f5085af1900cef490959b64cd725f6efcbd0e3833761ced267f04e53128109d61f2b46",
+          "sha256": "f24450cb5759a6ff8a5cbc33271d8b322b6f228cdfce76ec2990ba29726fb622",
+          "sha1": "5e72b57eb653887b02e7ca0a8f6d56b4efe85773",
+          "md5": "02b328678d488487007cfcccbb64c3a6"
         }
       ]
     }

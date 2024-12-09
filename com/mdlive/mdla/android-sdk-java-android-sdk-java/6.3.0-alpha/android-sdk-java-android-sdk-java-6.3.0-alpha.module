@@ -39,10 +39,10 @@
           "name": "android-sdk-java-android-sdk-java-6.3.0-alpha.jar",
           "url": "android-sdk-java-android-sdk-java-6.3.0-alpha.jar",
           "size": 96333,
-          "sha512": "b362bc809a84fc736b051e7e14c323c1d5badf2f3a51413ca177fa82415137b644eff63a7cdc6972caaba3819a505dfc5f64a9a294708f0fad21b0b258f8914e",
-          "sha256": "af5f30fa3b8b03f63848b3a6201efd6a25117518b9f37203bf424f0f7b53be51",
-          "sha1": "a88e3cdae1783348161c3421173b482dcb65f900",
-          "md5": "05f3299bde6fdd5c329ea7f9f859ebfa"
+          "sha512": "b9e3fc951f34866c396431f660c7777fd3ea9993aafc0ece949034e1597ea4b122225da9f477ea8e9f9336eff7a19458671baafa50c7de8c55a5665baeab9ded",
+          "sha256": "893508f0bced64993d92e53b2186b160766ac3446259e040dd91b4572ae550ff",
+          "sha1": "d4d2de08a560e299809e10d48254ed1fb327632b",
+          "md5": "913010a6fe838509838f3bffb7a2609e"
         }
       ]
     },
@@ -78,10 +78,10 @@
           "name": "android-sdk-java-android-sdk-java-6.3.0-alpha.jar",
           "url": "android-sdk-java-android-sdk-java-6.3.0-alpha.jar",
           "size": 96333,
-          "sha512": "b362bc809a84fc736b051e7e14c323c1d5badf2f3a51413ca177fa82415137b644eff63a7cdc6972caaba3819a505dfc5f64a9a294708f0fad21b0b258f8914e",
-          "sha256": "af5f30fa3b8b03f63848b3a6201efd6a25117518b9f37203bf424f0f7b53be51",
-          "sha1": "a88e3cdae1783348161c3421173b482dcb65f900",
-          "md5": "05f3299bde6fdd5c329ea7f9f859ebfa"
+          "sha512": "b9e3fc951f34866c396431f660c7777fd3ea9993aafc0ece949034e1597ea4b122225da9f477ea8e9f9336eff7a19458671baafa50c7de8c55a5665baeab9ded",
+          "sha256": "893508f0bced64993d92e53b2186b160766ac3446259e040dd91b4572ae550ff",
+          "sha1": "d4d2de08a560e299809e10d48254ed1fb327632b",
+          "md5": "913010a6fe838509838f3bffb7a2609e"
         }
       ]
     }
